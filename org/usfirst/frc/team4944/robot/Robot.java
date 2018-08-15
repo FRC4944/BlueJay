@@ -12,7 +12,6 @@ import org.usfirst.frc.team4944.robot.subsystems.ExampleSubsystem;
 
 public class Robot extends TimedRobot {
 
-	Command m_autonomousCommand;
 	SendableChooser<Command> m_chooser = new SendableChooser<>();
 
 	@Override
